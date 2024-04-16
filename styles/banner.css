@@ -1,0 +1,82 @@
+.banner {
+  position:relative;
+  display: flex;
+  flex-direction: column;
+  background: var(--cor-degrade);
+  text-align: center;
+  padding: 2.5em 2em;
+}
+
+.gallery-wrapper {
+  overflow-x: auto;
+}
+
+.gallery {
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 1em;
+}
+
+.gallery-img {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.banner__titulo {
+  font-size: 1.12rem;
+  font-weight: 700;
+}
+
+.banner__texto {
+  font-size: 1rem;
+  font-weight: 500;
+  margin: 1em 0;
+}
+
+
+@media screen and (min-width:1024px) {
+  .banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 20em;
+  }
+  
+  .banner__titulo {
+    font-size: 2.25rem;
+  }
+
+  .banner__texto {
+    font-size:1rem;
+    margin: 2em 0
+  }
+
+  .banner__pesquisa {
+    width: 50%;
+    align-items: center;
+    padding: 1.5em .5em;
+  }
+
+  .banner__pesquisa::placeholder {
+    font-size: 1rem;
+    /* background-position: 7em; */
+  }
+}
+
+@media screen and (min-width:1728px) {
+  .banner__pesquisa {
+    width: 38%;
+  }
+
+  .banner__pesquisa::placeholder {
+    background-position: 9em;
+  }
+
+  .banner {
+    padding: 6em 0;
+  }
+
+  
+}

@@ -1,0 +1,2 @@
+O card não consigo deixar ele responsivo e nem colocar a cor de fundo necessária.
+Quando coloco no celular a cor também muda

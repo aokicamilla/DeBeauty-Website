@@ -1,0 +1,33 @@
+@import url("header.css");
+@import url("banner.css");
+@import url("carrossel.css");
+@import url("card.css");
+@import url("topicos.css");
+@import url("contato.css");
+@import url("footer.css");
+@import url("produtos.css");
+@import url("quem-somos.css");
+
+:root {
+  --cor-de-fundo: #F2F1EB;
+  --cor-cabecalho: #E9EDC9;
+  --cor-titulo: #739072;
+  --cor-titulo-produto: rgb(145, 202, 145);
+  --cor-fundo-card: #FAEDCD;
+  --cor-borda: #4F6F52;
+  --cor-degrade: linear-gradient(97.54deg, #538151 1.49%, #CCD5AE 70.37%);
+  --fonte-principal: "Poppins";
+  --fonte-secundaria: "Josefin Sans";
+  --cor-subtitulo: #863D3D;
+  --cor-titulo-rodape: #858585;
+  --cor-texto-rodape: #474646;
+  --cor-fundo-rodape: #F9F9F9;
+  --cor-topicos: #3A4D39;
+}
+
+* {
+  font-family: var(--fonte-principal);
+  font-size: 16px;
+  font-weight: 400;
+}
+
