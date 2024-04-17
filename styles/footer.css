@@ -11,6 +11,12 @@ hr {
   font-size: 1rem;
   color: var(--cor-subtitulo);
 }
+.rodape__subtitulo {
+  font-weight: 300;
+  font-size: 0.7rem;
+  color: var(--cor-subtitulo);
+}
+
 
 .rodape__lista {
   display: none;
@@ -24,6 +30,10 @@ hr {
     padding: 4em 0;
   }
 
+  .rodape__subtitulo {
+    display: none;
+  }
+  
   .rodape__lista {
     display: block;
   }

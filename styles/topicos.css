@@ -35,7 +35,7 @@
 
 @media screen and (min-width: 1024px) {
   .topicos {
-    padding: 2em 20em;
+    padding: 2em 12em;
   }
   .topicos__titulo {
     font-size: 1.5rem;
