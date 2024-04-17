@@ -1,8 +1,8 @@
 
 .card {
-  background-color: var(--cor-fundo-card);
-  box-shadow: 0px 4px 4px 0px #00000040;
-  border-radius: 10px;
+  background-color: var(--cor-fundo-card) !important;
+  box-shadow: 2px 4px 4px 2px #00000040;
+  border-radius: 20px !important;
   margin: 1em;
   padding: 1.5em 1em;
   display: flex;
@@ -24,9 +24,10 @@
 }
 
 .descricao__img {
-  width: 43%;
-  height: 43%;
+  width: 25%;
+  height: 25%;
   margin: 3em 1em;
+  border-radius: 20px;
 }
 
 .descricao__titulo {
@@ -34,6 +35,23 @@
   background-color: var(--cor-fundo-card);
   font-weight: 700;
   margin-bottom: 1em;
+}
+
+.card__review {
+  background-color: var(--cor-fundo-card) !important;
+  box-shadow: 0px 4px 4px 0px #00000040;
+  border-radius: 1em;
+  margin: 1em auto;
+  display: flex;
+  align-items: center;
+}
+
+.review__titulo {
+  color: var(--cor-titulo);
+  background-color: var(--cor-fundo-card);
+  font-weight: 700;
+  margin-bottom: 1em;
+  font-size: 20px;
 }
 
 .descricao__subtitulo{
@@ -49,36 +67,44 @@
   background-color: var(--cor-fundo-card);
 }
 
+.card__review {
+  width: 40%;
+}
+
 .card__classificacao {
   background-color: var(--cor-fundo-card);
   margin-bottom: .5em;
-  width: 60%;
+  width: 20%;
 }
 
 
 @media screen and (min-width:1024px) {
   .card {
-    width: 70%;
+    width: 100%;
     margin: 2em auto;
   }
 
+  .descricao__img {
+    width: 30%;
+  } 
+
   .descricao__titulo {
-    font-size: 3.5rem;
+    font-size: 3.0rem;
   }
 
   .descricao__subtitulo {
-    font-size: 2.5rem;
+    font-size: 2.0rem;
   }
 
   .descricao__texto {
-    font-size: 1.5rem;
+    font-size: 1.0rem;
   }
 }
 
 @media screen and (min-width:1728px) {
   .card {
-    width: 60%;
-    margin: 2em 5em;
+    width: 100%;
+    margin: 2em auto;
   }
 
 
