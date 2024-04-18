@@ -6,6 +6,11 @@
 
 .cabecalho__container {
   display: flex;
+  justify-content: flex-end;
+}
+
+.cabecalho__icones {
+  display: flex;
 }
 
 .logo__img {
@@ -26,6 +31,10 @@
   color: var(--cor-titulo);
 }
 
+.navbar-collapse {
+  text-align: right;
+}
+
 @media screen and (min-width: 1024px) {
 
   .cabecalho__menu {
@@ -35,9 +44,6 @@
     justify-content: flex-end;
   }
 
-  .coracao-icon {
-    display: none;
-  }
 }
 
 @media screen and (min-width:1728px) {
