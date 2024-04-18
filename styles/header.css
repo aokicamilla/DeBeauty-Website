@@ -1,24 +1,35 @@
 .cabecalho {
   background-color: var(--cor-cabecalho);
+  display: flex;
+  justify-content: space-between;
 }
 
 .cabecalho__container {
-  margin: 50px;
+  display: flex;
 }
 
 .logo__img {
-  width: 30%;
-  padding: 0 2em 0 0;
+  width: 50%;
+}
+
+.container__link {
+  margin: 0;
+  padding: 0;
 }
 
 .container__img {
   padding: 0 0.1em;
-  width: 100%;
+  width: 50%;
+}
+
+.nav-link {
+  color: var(--cor-titulo);
 }
 
 @media screen and (min-width: 1024px) {
 
-  .cabecalho__container {
+  .cabecalho__menu {
+    display: block;
     position: relative;
     display: flex;
     justify-content: flex-end;
