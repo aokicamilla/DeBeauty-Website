@@ -1,7 +1,7 @@
 .cabecalho {
   background-color: var(--cor-cabecalho);
   display: flex;
-  justify-content: space-between;
+  justify-content: right;
 }
 
 .cabecalho__container {
@@ -9,12 +9,13 @@
   justify-content: flex-end;
 }
 
-.cabecalho__icones {
+.cabecalho__direita {
   display: flex;
 }
 
 .logo__img {
-  width: 50%;
+  margin: 1em auto;
+  width: 60%;
 }
 
 .container__link {
@@ -23,9 +24,12 @@
 }
 
 .container__img {
+  margin: 1em 1em;
   padding: 0 0.1em;
-  width: 50%;
+  width: 80%;
+  cursor: pointer;
 }
+
 
 .nav-link {
   color: var(--cor-titulo);
@@ -42,6 +46,21 @@
     position: relative;
     display: flex;
     justify-content: flex-end;
+  }
+
+  .logo__img {
+    margin: 1em auto;
+    width: 80%;
+  }
+
+  .cabecalho__container {
+    display: flex;
+    align-items: center;
+  }
+
+  .container__img {
+    padding: 0 0.1em;
+    width: 50%;
   }
 
 }
