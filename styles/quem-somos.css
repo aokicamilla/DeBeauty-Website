@@ -4,6 +4,7 @@
     align-items: center;
     text-align: center;
     background-color: var(--cor-cabecalho);
+    border-radius: 10px;
 }
 
 .quem-somos__titulo {

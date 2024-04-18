@@ -4,6 +4,7 @@
   text-align: center;
   padding: 2em 0;
   margin-top: 5em;
+  border-radius: 10px;
 }
 
 .topicos__titulo {
@@ -35,7 +36,7 @@
 
 @media screen and (min-width: 1024px) {
   .topicos {
-    padding: 2em 12em;
+    padding: 2em 1em;
   }
   .topicos__titulo {
     font-size: 1.5rem;

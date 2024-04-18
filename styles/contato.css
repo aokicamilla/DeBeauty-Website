@@ -33,6 +33,16 @@
   background-size: 1.5em;
 }
 
+#contato-nome::placeholder {
+  background: url("..//src/Usuario.svg") no-repeat;
+  background-size: 1.5em;
+}
+
+#contato-favorito::placeholder {
+  background: url("..//src/Favoritos.svg") no-repeat;
+  background-size: 1.5em;
+}
+
 .contato__input::placeholder {
 
   font-size: 1rem;
