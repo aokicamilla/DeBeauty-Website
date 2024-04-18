@@ -39,7 +39,7 @@
 }
 
 .card__review {
-  background-color: var(--cor-cabecalho) !important;
+  background-color: var(--cor-fundo-card);
   box-shadow: 0px 4px 4px 0px #00000040;
   border-radius: 1em;
   margin: 1em auto;
