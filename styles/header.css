@@ -6,7 +6,6 @@
 
 .cabecalho__container {
   display: flex;
-  justify-content: flex-end;
 }
 
 .cabecalho__direita {
@@ -40,7 +39,9 @@
 }
 
 @media screen and (min-width: 1024px) {
-
+  .cabecalho {
+    justify-content: space-between;
+  }
   .cabecalho__menu {
     display: block;
     position: relative;
@@ -49,7 +50,7 @@
   }
 
   .logo__img {
-    margin: 1em auto;
+    margin: 1em 1em;
     width: 80%;
   }
 
@@ -70,10 +71,6 @@
     display: flex;
     align-items: center;
     color: var(--cor-subtitulo)
-  }
-
-  .cabecalho {
-    padding: 0 3em;
   }
 
   .opcoes {
