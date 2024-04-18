@@ -22,6 +22,10 @@ hr {
   display: none;
 }
 
+.rodape__lista__link:hover {
+  color: inherit;
+}
+
 @media screen and (min-width:1024px) {
   .rodape {
     display: flex;
